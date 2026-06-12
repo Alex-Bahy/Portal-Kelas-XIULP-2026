@@ -3,32 +3,32 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Portal Akademik — X Akuntansi & Keuangan Lembaga</title>
+<title>Portal Akademik — XI Usaha Layanan Pariwisata</title>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Fraunces:opsz,wght@9..144,700;9..144,800&display=swap" rel="stylesheet">
 <style>
 * { margin:0; padding:0; box-sizing:border-box; }
 
 :root {
-  --navy:    #0C1A3A;
-  --navy2:   #162B5C;
-  --navy3:   #1F3D80;
-  --gold:    #C8932A;
-  --gold2:   #E8B44A;
-  --gold3:   #F5D98B;
-  --teal:    #0F7B61;
-  --teal2:   #14A881;
-  --teal-bg: #E0F5EF;
-  --rose:    #B83A5A;
-  --rose-bg: #FDEAF0;
-  --sky:     #1A6FB5;
-  --sky-bg:  #E5F1FC;
-  --amber:   #A05E10;
-  --amber-bg:#FEF3DA;
-  --bg:      #F4F2EC;
+  --navy:    #0B2E36;
+  --navy2:   #114852;
+  --navy3:   #186475;
+  --gold:    #E8895C;
+  --gold2:   #F4A77E;
+  --gold3:   #FBCDB5;
+  --teal:    #0E8E83;
+  --teal2:   #2BBAAC;
+  --teal-bg: #E0F7F3;
+  --rose:    #C75450;
+  --rose-bg: #FCEAE9;
+  --sky:     #2E9CC9;
+  --sky-bg:  #E4F4FB;
+  --amber:   #B5641E;
+  --amber-bg:#FDEEDF;
+  --bg:      #F2F6F5;
   --surface: #FFFFFF;
-  --border:  rgba(12,26,58,0.10);
-  --text:    #0C1A3A;
-  --muted:   #6474A0;
+  --border:  rgba(11,46,54,0.10);
+  --text:    #0B2E36;
+  --muted:   #5C8A8E;
   --r:       14px;
   --r2:      20px;
 }
@@ -49,9 +49,9 @@ body {
 .hero-glow {
   position: absolute; inset: 0; pointer-events: none;
   background:
-    radial-gradient(ellipse 55% 70% at 85% -10%, rgba(200,147,42,0.22) 0%, transparent 65%),
-    radial-gradient(ellipse 35% 50% at 5%  90%, rgba(15,123,97,0.16)  0%, transparent 60%),
-    radial-gradient(ellipse 40% 40% at 50% 110%, rgba(26,111,181,0.14) 0%, transparent 60%);
+    radial-gradient(ellipse 55% 70% at 85% -10%, rgba(232,137,92,0.22) 0%, transparent 65%),
+    radial-gradient(ellipse 35% 50% at 5%  90%, rgba(14,142,131,0.20)  0%, transparent 60%),
+    radial-gradient(ellipse 40% 40% at 50% 110%, rgba(46,156,201,0.16) 0%, transparent 60%);
 }
 .hero-lines {
   position: absolute; inset: 0; pointer-events: none; opacity: .04;
@@ -76,7 +76,7 @@ body {
 .nav-school { color: rgba(255,255,255,.9); font-size: 14px; font-weight: 600; line-height: 1.3; }
 .nav-school span { display: block; font-size: 12px; font-weight: 400; color: rgba(255,255,255,.45); }
 .nav-year {
-  background: rgba(200,147,42,.18); border: 1px solid rgba(200,147,42,.35);
+  background: rgba(232,137,92,.18); border: 1px solid rgba(232,137,92,.35);
   color: var(--gold3); font-size: 12px; font-weight: 700; padding: 6px 14px;
   border-radius: 20px; letter-spacing: .04em;
 }
@@ -152,7 +152,7 @@ body {
 
 /* ─── DATA SISWA HERO CARD ─── */
 .data-hero {
-  background: linear-gradient(130deg, var(--navy2) 0%, var(--navy3) 60%, #253F85 100%);
+  background: linear-gradient(130deg, var(--navy2) 0%, var(--navy3) 60%, #237E8C 100%);
   border-radius: var(--r2);
   padding: 40px 44px;
   display: grid;
@@ -166,12 +166,12 @@ body {
 .data-hero::before {
   content: '';
   position: absolute; inset: 0; pointer-events: none;
-  background: radial-gradient(ellipse 55% 90% at 100% 50%, rgba(200,147,42,.18) 0%, transparent 65%);
+  background: radial-gradient(ellipse 55% 90% at 100% 50%, rgba(232,137,92,.18) 0%, transparent 65%);
 }
 .data-hero-text { position: relative; z-index: 1; }
 .data-hero-badge {
   display: inline-flex; align-items: center; gap: 6px;
-  background: rgba(200,147,42,.20); border: 1px solid rgba(200,147,42,.35);
+  background: rgba(232,137,92,.20); border: 1px solid rgba(232,137,92,.35);
   color: var(--gold3); font-size: 11px; font-weight: 700;
   letter-spacing: .08em; text-transform: uppercase;
   padding: 5px 12px; border-radius: 20px; margin-bottom: 14px;
@@ -249,13 +249,13 @@ body {
 }
 .subj-card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 12px 40px rgba(12,26,58,.09);
-  border-color: rgba(12,26,58,.18);
+  box-shadow: 0 12px 40px rgba(11,46,54,.09);
+  border-color: rgba(11,46,54,.18);
 }
 .subj-card::after {
   content: ''; position: absolute; top:0; left:0; right:0; height:3px;
 }
-.card-u::after { background: linear-gradient(90deg, var(--sky), #4A90D9); }
+.card-u::after { background: linear-gradient(90deg, var(--sky), #4AB3D9); }
 .card-k::after { background: linear-gradient(90deg, var(--teal), var(--teal2)); }
 .card-l::after { background: linear-gradient(90deg, var(--gold), var(--gold2)); }
 
@@ -273,7 +273,7 @@ body {
 .card-info { flex:1; min-width: 0; }
 .card-name { font-size: 14px; font-weight: 700; color: var(--text); line-height: 1.35; margin-bottom: 3px; }
 .card-type { font-size: 11px; font-weight: 600; letter-spacing: .04em; }
-.card-u .card-type { color: #5588CC; }
+.card-u .card-type { color: #3FA0CC; }
 .card-k .card-type { color: var(--teal); }
 .card-l .card-type { color: var(--gold); }
 
@@ -303,7 +303,7 @@ body {
 /* ─── MODAL OVERLAY ─── */
 #modal {
   position: fixed; inset: 0; z-index: 200;
-  background: rgba(8,14,30,.72);
+  background: rgba(6,28,33,.72);
   backdrop-filter: blur(8px);
   display: flex; align-items: center; justify-content: center;
   opacity: 0; pointer-events: none;
@@ -350,7 +350,7 @@ body {
 .modal-inp-wrap { position: relative; margin-bottom: 16px; }
 .modal-inp {
   width: 100%;
-  border: 1.5px solid #DDE2EE;
+  border: 1.5px solid #DCE9E8;
   border-radius: 11px;
   padding: 13px 44px 13px 16px;
   font-size: 16px; letter-spacing: .06em;
@@ -439,9 +439,9 @@ footer strong { color: rgba(255,255,255,.60); }
 
   <nav class="nav">
     <div class="nav-brand">
-      <div class="nav-logo">AK</div>
+      <div class="nav-logo">UP</div>
       <div class="nav-school">
-        X Akuntansi &amp; Keuangan Lembaga
+        XI Usaha Layanan Pariwisata
         <span>SMK · Portal Akademik Guru</span>
       </div>
     </div>
@@ -454,14 +454,14 @@ footer strong { color: rgba(255,255,255,.60); }
       Portal Nilai &amp; Akademik
     </div>
     <h1 class="hero-title">
-      Nilai &amp; Rekap<br><em>Kelas X AKL</em>
+      Nilai &amp; Rekap<br><em>Kelas XI ULP</em>
     </h1>
     <p class="hero-sub">
-      Akses nilai mata pelajaran, data siswa, dan rekap akademik kelas X Akuntansi &amp; Keuangan Lembaga — tersedia untuk semua guru.
+      Akses nilai mata pelajaran, data siswa, dan rekap akademik kelas XI Usaha Layanan Pariwisata — tersedia untuk semua guru.
     </p>
     <div class="stats">
       <div class="stat">
-        <div class="stat-n">12<b>+</b></div>
+        <div class="stat-n">13<b>+</b></div>
         <div class="stat-l">Mata Pelajaran</div>
       </div>
       <div class="stat">
@@ -477,7 +477,7 @@ footer strong { color: rgba(255,255,255,.60); }
 
   <div class="wave">
     <svg viewBox="0 0 1440 72" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
-      <path d="M0,36 C180,72 360,0 540,36 C720,72 900,0 1080,36 C1260,72 1380,18 1440,36 L1440,72 L0,72 Z" fill="#F4F2EC"/>
+      <path d="M0,36 C180,72 360,0 540,36 C720,72 900,0 1080,36 C1260,72 1380,18 1440,36 L1440,72 L0,72 Z" fill="#F2F6F5"/>
     </svg>
   </div>
 </header>
@@ -490,15 +490,15 @@ footer strong { color: rgba(255,255,255,.60); }
   <section class="sec">
     <div class="sec-head">
       <div class="sec-tag tag-gold">🗂 Data Administrasi</div>
-      <h2 class="sec-title">Data Siswa Kelas X AKL</h2>
+      <h2 class="sec-title">Data Siswa Kelas XI ULP</h2>
       <p class="sec-desc">Daftar lengkap siswa, profil, dan data administrasi kelas. Khusus diakses oleh Wali Kelas dengan kata sandi.</p>
     </div>
 
     <div class="data-hero">
       <div class="data-hero-text">
         <div class="data-hero-badge">🔐 Akses Wali Kelas</div>
-        <div class="data-hero-title">Database Siswa<br>X AKL 2025/2026</div>
-        <div class="data-hero-sub">Berisi data lengkap seluruh siswa kelas X Akuntansi &amp; Keuangan Lembaga — profil, absensi, dan catatan administratif.</div>
+        <div class="data-hero-title">Database Siswa<br>XI ULP 2025/2026</div>
+        <div class="data-hero-sub">Berisi data lengkap seluruh siswa kelas XI Usaha Layanan Pariwisata — profil, absensi, dan catatan administratif.</div>
         <button class="btn-data" onclick="openModal()">
           <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="2" y="7" width="12" height="8" rx="2"/><path d="M5 7V5a3 3 0 0 1 6 0v2"/></svg>
           Buka Data Siswa
@@ -539,12 +539,11 @@ footer strong { color: rgba(255,255,255,.60); }
           </div>
         </div>
         <div class="card-foot">
-          <!-- TODO-LINK-01: Ganti href="#" dengan link nilai Pendidikan Agama -->
-          <a href="#" class="link-btn link-off">
+          <a href="https://alex-bahy.github.io/Agama-XIULP-2026/" target="_blank" rel="noopener" class="link-btn link-on">
             <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 8h12M9 3l5 5-5 5"/></svg>
             Lihat Nilai
           </a>
-          <span class="badge badge-off">Segera</span>
+          <span class="badge badge-on">Aktif ✓</span>
         </div>
       </div>
 
@@ -558,12 +557,11 @@ footer strong { color: rgba(255,255,255,.60); }
           </div>
         </div>
         <div class="card-foot">
-          <!-- TODO-LINK-02: Ganti href="#" dengan link nilai Pendidikan Pancasila -->
-          <a href="#" class="link-btn link-off">
+          <a href="https://alex-bahy.github.io/Pend.-Pancasila-XIULP-2026/" target="_blank" rel="noopener" class="link-btn link-on">
             <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 8h12M9 3l5 5-5 5"/></svg>
             Lihat Nilai
           </a>
-          <span class="badge badge-off">Segera</span>
+          <span class="badge badge-on">Aktif ✓</span>
         </div>
       </div>
 
@@ -577,12 +575,11 @@ footer strong { color: rgba(255,255,255,.60); }
           </div>
         </div>
         <div class="card-foot">
-          <!-- TODO-LINK-03: Ganti href="#" dengan link nilai Bahasa Indonesia -->
-          <a href="#" class="link-btn link-off">
+          <a href="https://alex-bahy.github.io/B.-Indonesia-XIULP-2026/" target="_blank" rel="noopener" class="link-btn link-on">
             <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 8h12M9 3l5 5-5 5"/></svg>
             Lihat Nilai
           </a>
-          <span class="badge badge-off">Segera</span>
+          <span class="badge badge-on">Aktif ✓</span>
         </div>
       </div>
 
@@ -596,12 +593,11 @@ footer strong { color: rgba(255,255,255,.60); }
           </div>
         </div>
         <div class="card-foot">
-          <!-- TODO-LINK-04: Ganti href="#" dengan link nilai PJOK -->
-          <a href="#" class="link-btn link-off">
+          <a href="https://alex-bahy.github.io/PJOK-XIULP-2026/" target="_blank" rel="noopener" class="link-btn link-on">
             <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 8h12M9 3l5 5-5 5"/></svg>
             Lihat Nilai
           </a>
-          <span class="badge badge-off">Segera</span>
+          <span class="badge badge-on">Aktif ✓</span>
         </div>
       </div>
 
@@ -615,12 +611,11 @@ footer strong { color: rgba(255,255,255,.60); }
           </div>
         </div>
         <div class="card-foot">
-          <!-- TODO-LINK-05: Ganti href="#" dengan link nilai Sejarah -->
-          <a href="#" class="link-btn link-off">
+          <a href="https://alex-bahy.github.io/Sejarah-XIULP-2026/" target="_blank" rel="noopener" class="link-btn link-on">
             <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 8h12M9 3l5 5-5 5"/></svg>
             Lihat Nilai
           </a>
-          <span class="badge badge-off">Segera</span>
+          <span class="badge badge-on">Aktif ✓</span>
         </div>
       </div>
 
@@ -629,17 +624,34 @@ footer strong { color: rgba(255,255,255,.60); }
         <div class="card-row">
           <div class="card-num">06</div>
           <div class="card-info">
-            <div class="card-name">Seni Budaya</div>
+            <div class="card-name">Matematika</div>
             <div class="card-type">Mapel Umum</div>
           </div>
         </div>
         <div class="card-foot">
-          <!-- TODO-LINK-06: Ganti href="#" dengan link nilai Seni Budaya -->
-          <a href="#" class="link-btn link-off">
+          <a href="https://alex-bahy.github.io/Matematika-XIULP-2026/" target="_blank" rel="noopener" class="link-btn link-on">
             <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 8h12M9 3l5 5-5 5"/></svg>
             Lihat Nilai
           </a>
-          <span class="badge badge-off">Segera</span>
+          <span class="badge badge-on">Aktif ✓</span>
+        </div>
+      </div>
+
+      <!-- 7 -->
+      <div class="subj-card card-u">
+        <div class="card-row">
+          <div class="card-num">07</div>
+          <div class="card-info">
+            <div class="card-name">Bahasa Inggris</div>
+            <div class="card-type">Mapel Umum</div>
+          </div>
+        </div>
+        <div class="card-foot">
+          <a href="https://alex-bahy.github.io/B.-Inggris-XIULP-2026/" target="_blank" rel="noopener" class="link-btn link-on">
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 8h12M9 3l5 5-5 5"/></svg>
+            Lihat Nilai
+          </a>
+          <span class="badge badge-on">Aktif ✓</span>
         </div>
       </div>
 
@@ -647,41 +659,22 @@ footer strong { color: rgba(255,255,255,.60); }
 
     <!-- GROUP KEJURUAN -->
     <div class="group-div">
-      <div class="group-div-icon" style="background:var(--teal-bg);">⚙️</div>
+      <div class="group-div-icon" style="background:var(--teal-bg);">🧳</div>
       Mata Pelajaran Kejuruan
     </div>
     <div class="subj-grid">
 
-      <!-- 7 -->
-      <div class="subj-card card-k">
-        <div class="card-row">
-          <div class="card-num">07</div>
-          <div class="card-info">
-            <div class="card-name">Matematika</div>
-            <div class="card-type">Mapel Kejuruan</div>
-          </div>
-        </div>
-        <div class="card-foot">
-          <!-- TODO-LINK-07: Ganti href="#" dengan link nilai Matematika -->
-          <a href="#" class="link-btn link-off">
-            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 8h12M9 3l5 5-5 5"/></svg>
-            Lihat Nilai
-          </a>
-          <span class="badge badge-off">Segera</span>
-        </div>
-      </div>
-
-      <!-- 8 — AKTIF -->
+      <!-- 8 -->
       <div class="subj-card card-k">
         <div class="card-row">
           <div class="card-num">08</div>
           <div class="card-info">
-            <div class="card-name">Bahasa Inggris</div>
+            <div class="card-name">Konsentrasi Keahlian</div>
             <div class="card-type">Mapel Kejuruan</div>
           </div>
         </div>
         <div class="card-foot">
-          <a href="https://alex-bahy.github.io/daftar-nilai-BING-XAKL/" target="_blank" rel="noopener" class="link-btn link-on">
+          <a href="https://alex-bahy.github.io/Konsentrasi-Keahlian-XIULP-2026/" target="_blank" rel="noopener" class="link-btn link-on">
             <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 8h12M9 3l5 5-5 5"/></svg>
             Lihat Nilai
           </a>
@@ -694,17 +687,16 @@ footer strong { color: rgba(255,255,255,.60); }
         <div class="card-row">
           <div class="card-num">09</div>
           <div class="card-info">
-            <div class="card-name">Informatika</div>
+            <div class="card-name">Kreatifitas dan Kewirausahaan</div>
             <div class="card-type">Mapel Kejuruan</div>
           </div>
         </div>
         <div class="card-foot">
-          <!-- TODO-LINK-09: Ganti href="#" dengan link nilai Informatika -->
-          <a href="#" class="link-btn link-off">
+          <a href="https://alex-bahy.github.io/Kreatifitas-Inovasi-Kewirausahaan-XIULP-2026/" target="_blank" rel="noopener" class="link-btn link-on">
             <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 8h12M9 3l5 5-5 5"/></svg>
             Lihat Nilai
           </a>
-          <span class="badge badge-off">Segera</span>
+          <span class="badge badge-on">Aktif ✓</span>
         </div>
       </div>
 
@@ -713,17 +705,16 @@ footer strong { color: rgba(255,255,255,.60); }
         <div class="card-row">
           <div class="card-num">10</div>
           <div class="card-info">
-            <div class="card-name">Projek Ilmu Pengetahuan Alam dan Sosial</div>
+            <div class="card-name">Mata Pelajaran Pilihan</div>
             <div class="card-type">Mapel Kejuruan</div>
           </div>
         </div>
         <div class="card-foot">
-          <!-- TODO-LINK-10: Ganti href="#" dengan link nilai P5 / IPAS -->
-          <a href="#" class="link-btn link-off">
+          <a href="https://alex-bahy.github.io/Mata-Pelajaran-Pilihan-XIULP-2026/" target="_blank" rel="noopener" class="link-btn link-on">
             <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 8h12M9 3l5 5-5 5"/></svg>
             Lihat Nilai
           </a>
-          <span class="badge badge-off">Segera</span>
+          <span class="badge badge-on">Aktif ✓</span>
         </div>
       </div>
 
@@ -732,17 +723,16 @@ footer strong { color: rgba(255,255,255,.60); }
         <div class="card-row">
           <div class="card-num">11</div>
           <div class="card-info">
-            <div class="card-name">Dasar-dasar Program Keahlian</div>
+            <div class="card-name">Muatan Lokal</div>
             <div class="card-type">Mapel Kejuruan</div>
           </div>
         </div>
         <div class="card-foot">
-          <!-- TODO-LINK-11: Ganti href="#" dengan link nilai Dasar-dasar Program Keahlian -->
-          <a href="#" class="link-btn link-off">
+          <a href="https://alex-bahy.github.io/Muatan-Lokal-XIULP-2026/" target="_blank" rel="noopener" class="link-btn link-on">
             <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 8h12M9 3l5 5-5 5"/></svg>
             Lihat Nilai
           </a>
-          <span class="badge badge-off">Segera</span>
+          <span class="badge badge-on">Aktif ✓</span>
         </div>
       </div>
 
@@ -765,12 +755,11 @@ footer strong { color: rgba(255,255,255,.60); }
           </div>
         </div>
         <div class="card-foot">
-          <!-- TODO-LINK-12: Ganti href="#" dengan link Ledger Nilai -->
-          <a href="#" class="link-btn link-off">
+          <a href="https://alex-bahy.github.io/Ledger-XIULP-2026/" target="_blank" rel="noopener" class="link-btn link-on">
             <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 8h12M9 3l5 5-5 5"/></svg>
             Buka Ledger
           </a>
-          <span class="badge badge-off">Segera</span>
+          <span class="badge badge-on">Aktif ✓</span>
         </div>
       </div>
 
@@ -782,14 +771,14 @@ footer strong { color: rgba(255,255,255,.60); }
 
 <!-- FOOTER -->
 <footer>
-  <strong>Kelas X Akuntansi &amp; Keuangan Lembaga</strong><br>
+  <strong>Kelas XI Usaha Layanan Pariwisata</strong><br>
   Portal Akademik Guru · Tahun Pelajaran 2025/2026<br>
   <span style="font-size:12px;opacity:.5;">Data Siswa — akses terbatas Wali Kelas · Nilai Mapel — terbuka untuk semua guru</span>
 </footer>
 
 <script>
 const PASS = 'SMKBisa';
-const DATA_URL = 'https://alex-bahy.github.io/data-siswa-XAKL-2026/';
+const DATA_URL = 'https://alex-bahy.github.io/Data-Siswa-XIULP-2026/';
 
 function openModal() {
   document.getElementById('modal').classList.add('open');
