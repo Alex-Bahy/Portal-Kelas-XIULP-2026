@@ -9,7 +9,7 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
 :root {
-  --navy:    #0B2E36; 
+  --navy:    #0B2E36;
   --navy2:   #114852;
   --navy3:   #186475;
   --gold:    #E8895C;
@@ -80,6 +80,17 @@ body {
   color: var(--gold3); font-size: 12px; font-weight: 700; padding: 6px 14px;
   border-radius: 20px; letter-spacing: .04em;
 }
+.nav-back {
+  display: inline-flex; align-items: center; gap: 7px;
+  background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.14);
+  color: rgba(255,255,255,.78); font-size: 13px; font-weight: 700;
+  padding: 8px 16px; border-radius: 20px;
+  text-decoration: none; letter-spacing: .01em;
+  transition: background .2s, transform .15s, color .2s;
+  margin-left: auto; margin-right: 14px;
+}
+.nav-back:hover { background: rgba(232,137,92,.20); color: var(--gold3); transform: translateX(-2px); }
+.nav-back svg { width: 13px; height: 13px; flex-shrink: 0; }
 
 /* hero body */
 .hero-body {
@@ -400,7 +411,9 @@ footer strong { color: rgba(255,255,255,.60); }
 
 /* ─── RESPONSIVE ─── */
 @media(max-width:700px){
-  .nav  { padding: 14px 20px; }
+  .nav  { padding: 14px 20px; flex-wrap: wrap; gap: 10px; }
+  .nav-back { margin-left: 0; order: 3; width: 100%; justify-content: center; }
+  .nav-year { margin-left: auto; }
   .hero-body { padding: 48px 20px 40px; }
   .wrap { padding: 0 20px; }
   .stats { flex-direction: column; }
@@ -445,6 +458,10 @@ footer strong { color: rgba(255,255,255,.60); }
         <span>SMK · Portal Akademik Guru</span>
       </div>
     </div>
+    <a href="https://alex-bahy.github.io/Dashboard-Penginputan-Nilai-Semester-Genap-TP-2025-2026/" class="nav-back">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M10 3 5 8l5 5"/></svg>
+      Dashboard
+    </a>
     <div class="nav-year">TP 2025 / 2026</div>
   </nav>
 
